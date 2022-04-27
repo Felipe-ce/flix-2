@@ -1,0 +1,55 @@
+.header{
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem 0;
+}
+.header > div {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.inputPesquisar{
+  color: #fff;
+  background-color: #2C2C2C;
+  border-radius: 4px;
+  border:none;
+  padding: .5rem 1rem;
+  width: 300px;
+}
+.perfil{
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+.menuDrop{
+  position: relative;
+  display: inline-block;
+}
+.dropBtn{
+  background-color: #020202;
+  color: white;
+  padding: .5rem;
+  font-size: 1rem;
+  border: none;
+}
+.dropBtn::after{
+  content: '⯆';
+  margin-left: 1rem;
+
+}
+.dropdownContent{
+  display: none;
+  position: absolute;
+  background-color: #020202;
+  min-width: 120px;
+  z-index: 1;
+}
+.dropdownContent a{
+  padding: .6rem 1rem;
+  display: block;
+}
+.dropdownContent a:hover {background-color: #2c2c2c;}
+.menuDrop:hover .dropdownContent {display: block;}
+.dropBtn:hover{  background-color: #2c2c2c;}
