@@ -1,6 +1,6 @@
 import Header from './components/Header';
+// Usei o padrao CSS Modular para estilização dos componentes.
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Intro from './components/Intro';
 import Todos from './components/Todos';
 

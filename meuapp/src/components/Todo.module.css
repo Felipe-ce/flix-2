@@ -28,12 +28,3 @@ font-weight: bold;
 font-size: 1rem;
 line-height: 1.3;
 }
-.carouselConfig{
-  slidesToShow: 5;
-  autoplay: true;
-  wrapAround: true;
-  renderBottomCenterControls: false;
-  adaptiveHeight: true;
-  cellSpacing: "15";
-
-}

@@ -8,6 +8,7 @@ import sonhoLiberdade from '../assets/sonhoLiberdade.png';
 import horaElaVolta from '../assets/horaElaVolta.png';
 
 export default class Todos extends React.Component {
+  // State da pagina todo, que esta sendo redenrizado na tela inicial com o titulo destaque
   state = {
     Filmes: [
       {
@@ -50,12 +51,12 @@ export default class Todos extends React.Component {
   };
 
   render() {
-    console.log(this.state.Filmes);
     return (
       <div className="container">
         <h2>Destaques</h2>
         <div className={styles.containerFilme}>
           <Carousel
+            // Configurações carrosel
             slidesToShow={4}
             autoplay={true}
             wrapAround={true}
